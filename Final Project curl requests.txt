@@ -1,0 +1,20 @@
+Example cURL requests:
+
+Create:
+curl -H "Content-Type: application/json" -X POST -d '{"newStock" : {"Ticker": "AGLE", "Company" : "Agricultural Lake Entity", "Industry" : "Science", "Country" : "USA", "Price" : 0.58, "Profit Margin" : 0.78, "Return on Assets" : 0.088, "Return on Investment" : 0.24, "Performance (Year)" : 0.58, "Performance (YTD)" : 0.223, "Analyst Recom" : 2.3, "Shares Outstanding" : 113.5, "Volume" : 70}}' http://localhost:8080/createStock/AGLE
+
+Read:
+curl 'http://localhost:8080/readStock/AGLE'
+
+Update:
+curl -H "Content-Type: appliction/json" -X POST -d '{"Volume" : 60}' http://localhost:8080/updateStock/AGLE
+
+Delete:
+curl 'http://localhost:8080/deleteStock/AGLE'
+
+
+Stock Report:
+curl -H 'Content-Type: application/json' -X PUT -d '{"userList" : ["GSS","SBGL","ANV"]}' http://localhost:8080/stockReport
+
+Industry Report:
+curl 'http://localhost:8080/industryReport/Gold'
