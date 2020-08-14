@@ -1,0 +1,42 @@
+Details on Lions
+
+Animal - Lion
+Name: Leo
+Age: 3
+*****Health concerns: Cut on left front paw
+Feeding schedule: Twice daily
+
+Details on Tigers
+
+Animal - Tiger
+Name: Maj
+Age: 15
+Health concerns: None
+Feeding schedule: 3x daily
+
+Details on Bears
+
+Animal - Bear
+Name: Baloo
+Age: 1
+Health concerns: None
+Feeding schedule: Fed Twice Daily
+
+Details on Giraffes
+
+Animal - Giraffe
+Name: Speckles
+Age: 12
+Health concerns: None
+Feeding schedule: Grazing
+
+Details on Pumas
+
+Animal - Puma
+Name: Jermaine
+Age: 7
+*****Health concerns: He is suffering from ear mites
+Feeding schedule: Twice daily
+
+
+

@@ -1,0 +1,26 @@
+
+Details on Penguin Habitat
+Habitat - Penguins
+Temperature: Freezing
+*****Food source: Fish in water running low
+Cleanliness: Passed
+
+Details on Bird house
+Habitat of - Bird
+Temperature: Moderate
+Food source: Natural from environment
+Cleanliness: Passed
+
+Details on Aquarium
+Habitat - Aquarium
+Temperature: Varies with output temperature
+Food source: Added daily
+*****Cleanliness: Needs cleaning from algae
+
+
+Details on Reptile House
+Habitat - Snakes and Lizards
+Temperature: Tropical
+Food source: Small insects and other live prey added Twice Weekly
+Cleanliness: Passed 
+
