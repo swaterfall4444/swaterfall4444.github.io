@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name_field"
+            android:text="Editing details for: "
+
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/ancestorName"
+            android:layout_toRightOf="@id/name_field"
+            android:layout_marginBottom="25dp"
+            android:ems="10"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ancestorName"
+            android:id="@+id/uniqueID"
+            android:text="Unique ID"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ancestorName"
+            android:layout_toRightOf="@id/uniqueID"
+            android:id="@+id/uniqueID_field"
+
+            android:layout_marginBottom="15dp"
+            android:ems="10"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nameEdit"
+            android:text="Name"
+            android:textSize="20sp"
+            android:layout_below="@id/uniqueID_field"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/newName"
+            android:layout_below="@id/uniqueID_field"
+            android:layout_toRightOf="@id/nameEdit"
+            android:inputType="textMultiLine"
+            android:layout_marginBottom="15dp"
+            android:ems="10"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageEdit"
+            android:text="Image URL"
+            android:textSize="20sp"
+            android:layout_below="@id/newName"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/newImageURL"
+            android:layout_below="@id/newName"
+            android:layout_toRightOf="@id/imageEdit"
+            android:inputType="textMultiLine"
+            android:layout_marginBottom="15dp"
+            android:ems="10"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/relativesEdit"
+            android:text="Relatives"
+            android:textSize="20sp"
+            android:layout_below="@id/newImageURL"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/newRelatives"
+            android:layout_below="@id/newImageURL"
+            android:layout_toRightOf="@id/relativesEdit"
+            android:inputType="textMultiLine"
+            android:layout_marginBottom="15dp"
+            android:ems="10"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/locationEdit"
+            android:text="@string/Location"
+            android:textSize="20sp"
+            android:layout_below="@id/newRelatives"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/newLocation"
+            android:layout_below="@id/newRelatives"
+            android:layout_toRightOf="@id/locationEdit"
+            android:inputType="textMultiLine"
+            android:layout_marginBottom="15dp"
+            android:ems="10"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/infoEdit"
+            android:text="Information"
+            android:textSize="20sp"
+            android:layout_below="@id/newLocation"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/newInfo"
+            android:layout_below="@id/newLocation"
+            android:layout_toRightOf="@id/infoEdit"
+            android:inputType="textMultiLine"
+            android:layout_marginBottom="15dp"
+            android:ems="10"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sourceEdit"
+            android:text="Sources"
+            android:textSize="20sp"
+            android:layout_below="@id/newInfo"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/newSources"
+            android:layout_below="@id/newInfo"
+            android:layout_toRightOf="@id/sourceEdit"
+            android:inputType="textMultiLine"
+            android:layout_marginBottom="15dp"
+            android:ems="10"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/saveChanges"
+            android:layout_below="@+id/newSources"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:text="Save Changes"
+            android:layout_marginBottom="30dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@id/add"
+            android:layout_below="@id/newSources"
+            android:text="Add Ancestor"
+            android:layout_toRightOf="@id/saveChanges"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Delete"
+            android:layout_below="@id/saveChanges"
+            android:text="Delete Ancestor"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="50dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/discardChanges"
+            android:text="Discard Changes"
+            android:layout_below="@id/saveChanges"
+            android:layout_toRightOf="@+id/Delete"/>
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+</ScrollView>
