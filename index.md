@@ -2,34 +2,17 @@
 
 Before Exploring my code, check out my [code review](https://youtu.be/w8wvmomElyM) that goes over the projects prior to my updates.
 
-### Markdown
+### Family Tree App
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+View the [layout and source code files](https://github.com/swaterfall4444/swaterfall4444.github.io/tree/swaterfall4444-Software-Design-and-Engineering) for this Android App
+To set up this app, run the build.gradle file in Android Studio
 
-```markdown
-Syntax highlighted code block
+### Animal Monitoring System
+View the code for this app [here](https://github.com/swaterfall4444/swaterfall4444.github.io/tree/swaterfall4444-Algorithms-and-Data-Structures)
+To run this app, import all files into a new Java Project and you will be able to view, create, update and delete information in both of the text files
 
-# Header 1
-## Header 2
-### Header 3
+### Mongo Database REST API
+For this last project I had created a RESTful API using Bottle Rest Service and pyMongo.
+The Server file and example cURL requests can be found [here] (https://github.com/swaterfall4444/swaterfall4444.github.io/tree/swaterfall4444-Databases-Code)
+The Mongo Database was hosted on Codio and as such will not be permanently available, however feel free to see the coding structure of the server that I had created.
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/swaterfall4444/swaterfall4444.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
