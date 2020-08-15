@@ -13,6 +13,8 @@ To run this app, import all files into a new Java Project and you will be able t
 
 ### Mongo Database REST API
 For this last project I had created a RESTful API using Bottle Rest Service and pyMongo.
+
 The Server file and example cURL requests can be found [here] (https://github.com/swaterfall4444/swaterfall4444.github.io/tree/swaterfall4444-Databases-Code)
+
 The Mongo Database was hosted on Codio and as such will not be permanently available, however feel free to see the coding structure of the server that I had created.
 
